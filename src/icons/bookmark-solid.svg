@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100" height="100" viewBox="0 0 100 100" xml:space="preserve">
+<desc>Created with Fabric.js 3.5.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="rgba(180,180,180,0)"/>
+<g transform="matrix(1 0 0 1 50 50)" id="808447">
+<g style="" vector-effect="non-scaling-stroke">
+		<g transform="matrix(1 0 0 1 0 0)">
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(180,180,180); fill-opacity: 0; fill-rule: nonzero; opacity: 1;" x="-50" y="-50" rx="0" ry="0" width="100" height="100"/>
+</g>
+		<g transform="matrix(1.5625 0 0 1.5469 0 -0.4986)" id="Layer_1">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(-32, -32.0004)" d="M 52 1 H 12 c -1.1044922 0 -2 0.8955078 -2 2 v 36 c 0 1.1044922 0.8955078 2 2 2 s 2 -0.8955078 2 -2 V 5 h 36 v 52.6171875 l -17.0361328 -9.3691406 c -0.6005859 -0.3320313 -1.3271484 -0.3320313 -1.9277344 0 L 14 57.6171875 V 46 c 0 -1.1044922 -0.8955078 -2 -2 -2 s -2 0.8955078 -2 2 v 15 c 0 0.7070313 0.3735352 1.3613281 0.9819336 1.7216797 c 0.609375 0.3603516 1.3623047 0.3730469 1.9819336 0.0302734 L 32 52.2822266 l 19.0361328 10.4697266 C 51.3364258 62.9179688 51.668457 63 52 63 c 0.3525391 0 0.7041016 -0.0927734 1.0180664 -0.2783203 C 53.6264648 62.3613281 54 61.7070313 54 61 V 3 C 54 1.8955078 53.1044922 1 52 1 z" stroke-linecap="round"/>
+</g>
+		<g transform="matrix(1.5625 0 0 1.5469 -13.2813 -31.4372)" id="Layer_1">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(-23.5, -12)" d="M 27 14 c 1.1044922 0 2 -0.8955078 2 -2 s -0.8955078 -2 -2 -2 h -7 c -1.1044922 0 -2 0.8955078 -2 2 s 0.8955078 2 2 2 H 27 z" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Care - We care with love</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <!-- logo -->
+        <div class="logo">
+            <a href="#">
+                <img src="/src/icons/logo.svg" alt="" width="240px">
+            </a>
+        </div>
+
+        <!-- navigation -->
+        <nav>
+            <!-- navigation with a size greater than 780px -->
+            <ul class="text-capitalize" id="nav-top">
+                <li><a href="#home">home</a></li>
+                <li><a href="#donation">donation</a></li>
+                <li><a href="#message">message</a></li>
+                <li><a href="#my-account">my account</a></li>
+            </ul>
+
+            <!-- navigation with size 780px -->
+            <ul class="text-capitalize card" id="nav-bottom">
+                <li>
+                    <a href="#home">
+                        <img src="src/icons/home-regular.svg" alt="icons" height="30px" onmouseover="homeSolid()"
+                            onmouseout="homeRegular()" id="home">
+                    </a>
+                </li>
+                <li>
+                    <a href="#donation">
+                        <img src="src/icons/hand-regular.svg" alt="icons" height="30px" onmouseover="donationSolid()"
+                            onmouseout="donationRegular()" id="donation">
+                    </a>
+                </li>
+                <li>
+                    <a href="#message">
+                        <img src="src/icons/message-regular.svg" alt="icons" height="40px" onmouseover="messageSolid1()"
+                            onmouseout="messageRegular1()" id="message1">
+                    </a>
+                </li>
+                <li>
+                    <a href="#profile">
+                        <img src="src/icons/user-regular.svg" alt="icons" height="30px" onmouseover="profileSolid()"
+                            onmouseout="profileRegular()" id="profile">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+
+        <!-- content -->
+        <div class="content">
+
+            <!-- float-left -->
+            <div class="left-content">
+
+                <!-- scroll menu -->
+                <section class="scroll-touch text-capitalize fw-normal" id="scroll">
+                    <div class="card">
+                        <a href="#" style="display:flex;flex-direction: column;align-items: center;" id="active">
+                            <img src="src/img/cats.jpg" alt="">
+                            <h4 class="">cats</h4>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#" style="display:flex;flex-direction: column;align-items: center;">
+                            <img src="src/img/dog.jpg" alt="">
+                            <h4 class="">dogs</h4>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#" style="display:flex;flex-direction: column;align-items: center;">
+                            <img src="src/img/parrot.jpg" alt="">
+                            <h4 class="">parrots</h4>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#" style="display:flex;flex-direction: column;align-items: center;">
+                            <img src="src/img/bunny.jpg" alt="">
+                            <h4 class="">bunnies</h4>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#" style="display:flex;flex-direction: column;align-items: center;">
+                            <img src="src/img/horse.jpg" alt="">
+                            <h4 class="">horse</h4>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#" style="display:flex;flex-direction: column;align-items: center;">
+                            <img src="src/img/snake.jpg" alt="">
+                            <h4 class="">snakes</h4>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#" style="display:flex;flex-direction: column;align-items: center;">
+                            <img src="src/img/turtle.jpg" alt="">
+                            <h4 class="">turtle</h4>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#" style="display:flex;flex-direction: column;align-items: center;">
+                            <img src="src/img/fish.jpg" alt="">
+                            <h4 class="">fishes</h4>
+                        </a>
+                    </div>
+                </section>
+
+                <!-- article -->
+                <article>
+                    <!-- list animal -->
+                    <section class="flex-column">
+                        <!-- card 1 -->
+                        <div class="card">
+                            <div class="card-title text-capitalize">
+                                <div class="space-between fs-medium">
+                                    <!-- cat name -->
+                                    <span class="fw-bold">
+                                        Gembul
+                                    </span>
+                                    <!-- upload date -->
+                                    <span class="ml-1 fs-small gray-color">30 august 2022</span>
+                                </div>
+                                <div class="space-between gray-color fs-small">
+                                    <!-- location -->
+                                    <div class="item">
+                                        <img src="src/icons/location-dot.svg" alt="icons" height="16px">
+                                        <span class="ml-1">Bandung, Indonesia</span>
+                                    </div>
+                                    <!-- gender & age -->
+                                    <div class="item">
+                                        <img src="src/icons/mars-regular.svg" alt="icons" height="16px">
+                                        <span class="ml-1">Male | 2 years old</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-image">
+                                <img src="src/img/cat-fat.jpg" class="img-responsive" alt="cat" width="200">
+                                <div class="banner-img" style="border-bottom: 0.1em solid #ccc;">
+                                    <div class="item">
+                                        <!-- like count -->
+                                        <img src="src/icons/heart-solid.svg" alt="icons" height="20px">
+                                        <span class="ml-1" id="count1">225</span>
+                                        <!-- share count -->
+                                        <img src="src/icons/share-regular.svg" class="ml-2" alt="icons" height="20px">
+                                        <span class="ml-1">18</span>
+                                    </div>
+                                    <div class="item">
+                                        <!-- bookmark -->
+                                        <span onclick="bookMark1()" id="hover">
+                                            <img src="src/icons/bookmark-regular.svg" alt="icons" height="20px"
+                                                id="bookmark1">
+                                        </span>
+                                        <!-- chatting -->
+                                        <span id="hover">
+                                            <a href="#chat-owner">
+                                                <img src="src/icons/message-regular.svg" class="ml-2" alt="icons"
+                                                    height="25px">
+                                            </a>
+                                        </span>
+                                        <!-- share -->
+                                        <span id="hover">
+                                            <a href="#share">
+                                                <img src="src/icons/share-regular.svg" class="ml-2" alt="icons"
+                                                    height="20px">
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="description">
+                                    <div class="item">
+                                        <p class="fs-small">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                            Quasi, assumenda!<span id="dots1">...</span><span id="more1">&nbsp;Lorem
+                                                ipsum
+                                                dolor
+                                                sit amet consectetur adipisicing elit. Deleniti, tempore.</span></p>
+                                        <h4 class="fs-small text-uppercase" onclick="showMoreOrLess1()" id="btn-show1">
+                                            show
+                                            more</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-foot">
+                                <!-- button like -->
+                                <div class="icon-likes" onclick="myHeart1()">
+                                    <img src="src/icons/heart-regular.svg" alt="icons" height="20px" id="heart1" head>
+                                </div>
+                                <!-- button adopted -->
+                                <button type="submit" class="btn-active text-capitalize">adopted</button>
+                            </div>
+                        </div>
+
+                        <!-- card 2 -->
+                        <div class="card">
+                            <div class="card-title text-capitalize">
+                                <div class="space-between fs-medium">
+                                    <!-- cat name -->
+                                    <span class="fw-bold">
+                                        Yuuki Akari
+                                    </span>
+                                    <!-- upload date -->
+                                    <span class="ml-1 fs-small gray-color">15 august 2022</span>
+                                </div>
+                                <div class="space-between gray-color fs-small">
+                                    <!-- location -->
+                                    <div class="item">
+                                        <img src="src/icons/location-dot.svg" alt="icons" height="16px">
+                                        <span class="ml-1">Osaka, Japan</span>
+                                    </div>
+                                    <!-- gender & age -->
+                                    <div class="item">
+                                        <img src="src/icons/venus-regular.svg" alt="icons" height="16px">
+                                        <span class="ml-1">Female | 1 years old</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-image">
+                                <!-- image card -->
+                                <img src="src/img/white-cat.jpg" class="img-responsive" alt="cat" width="200">
+                                <div class="banner-img" style="border-bottom: 0.1em solid #ccc;">
+                                    <div class="item">
+                                        <!-- like count -->
+                                        <img src="src/icons/heart-solid.svg" alt="icons" height="20px">
+                                        <span class="ml-1" id="count2">125</span>
+                                        <!-- share count -->
+                                        <img src="src/icons/share-regular.svg" class="ml-2" alt="icons" height="20px">
+                                        <span class="ml-1">10</span>
+                                    </div>
+                                    <div class="item">
+                                        <!-- bookmark -->
+                                        <span onclick="bookMark2()" id="hover">
+                                            <img src="src/icons/bookmark-regular.svg" alt="icons" height="20px"
+                                                id="bookmark2">
+                                        </span>
+                                        <!-- chatting -->
+                                        <span id="hover">
+                                            <a href="#chat-owner">
+                                                <img src="src/icons/message-regular.svg" class="ml-2" alt="icons"
+                                                    height="25px">
+                                            </a>
+                                        </span>
+                                        <!-- share -->
+                                        <span id="hover">
+                                            <a href="#share">
+                                                <img src="src/icons/share-regular.svg" class="ml-2" alt="icons"
+                                                    height="20px">
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <!-- description -->
+                                <div class="description">
+                                    <div class="item">
+                                        <p class="fs-small">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                            Quasi, assumenda!<span id="dots2">...</span><span id="more2">&nbsp;Lorem
+                                                ipsum
+                                                dolor
+                                                sit amet consectetur adipisicing elit. Deleniti, tempore.</span></p>
+                                        <h4 class="fs-small text-uppercase" onclick="showMoreOrLess2()" id="btn-show2">
+                                            show
+                                            more</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-foot">
+                                <!-- button like -->
+                                <div class="icon-likes" onclick="myHeart2()">
+                                    <img src="src/icons/heart-regular.svg" alt="icons" height="20px" id="heart2">
+                                </div>
+                                <!-- button adoption -->
+                                <button onclick="clickProcessed1()" class="btn-adoption"
+                                    id="proccess1">Adoption</button>
+                            </div>
+                        </div>
+
+                        <!-- card 3 -->
+                        <div class="card">
+                            <div class="card-title text-capitalize">
+                                <div class="space-between fs-medium">
+                                    <!-- cat name -->
+                                    <span class="fw-bold">
+                                        Marine Angel
+                                    </span>
+                                    <!-- upload date -->
+                                    <span class="ml-1 fs-small gray-color">20 august 2022</span>
+                                </div>
+                                <div class="space-between gray-color fs-small">
+                                    <!-- location -->
+                                    <div class="item">
+                                        <img src="src/icons/location-dot.svg" alt="icons" height="16px">
+                                        <span class="ml-1">New York, USA</span>
+                                    </div>
+                                    <!-- gender & age -->
+                                    <div class="item">
+                                        <img src="src/icons/mars-regular.svg" alt="icons" height="16px">
+                                        <span class="ml-1">female | 1.3 years old</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-image">
+                                <!-- image -->
+                                <img src="src/img/black-cat.jpg" class="img-responsive" alt="cat" width="200">
+                                <div class="banner-img" style="border-bottom: 0.1em solid #ccc;">
+                                    <div class="item">
+                                        <!-- like count -->
+                                        <img src="src/icons/heart-solid.svg" alt="icons" height="20px">
+                                        <span class="ml-1" id="count3">420</span>
+                                        <!-- share count -->
+                                        <img src="src/icons/share-regular.svg" class="ml-2" alt="icons" height="20px">
+                                        <span class="ml-1">25</span>
+                                    </div>
+                                    <div class="item">
+                                        <!-- bookmark -->
+                                        <span onclick="bookMark3()" id="hover">
+                                            <img src="src/icons/bookmark-regular.svg" alt="icons" height="20px"
+                                                id="bookmark3">
+                                        </span>
+                                        <!-- chat -->
+                                        <span id="hover">
+                                            <a href="#">
+                                                <img src="src/icons/message-regular.svg" class="ml-2" alt="icons"
+                                                    height="25px">
+                                            </a>
+                                        </span>
+                                        <!-- share -->
+                                        <span id="hover">
+                                            <img src="src/icons/share-regular.svg" class="ml-2" alt="icons"
+                                                height="20px">
+                                        </span>
+                                    </div>
+                                </div>
+                                <!-- description -->
+                                <div class="description">
+                                    <div class="item">
+                                        <p class="fs-small">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                            Quasi, assumenda!<span id="dots3">...</span><span id="more3">&nbsp;Lorem
+                                                ipsum
+                                                dolor
+                                                sit amet consectetur adipisicing elit. Deleniti, tempore.</span></p>
+                                        <h4 class="fs-small text-uppercase" onclick="showMoreOrLess3()" id="btn-show3">
+                                            show
+                                            more</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-foot">
+                                <!-- button likes -->
+                                <div class="icon-likes" onclick="myHeart3()">
+                                    <img src="src/icons/heart-regular.svg" alt="icons" height="20px" id="heart3">
+                                </div>
+                                <!-- button disagree -->
+                                <button type="submit" class="btn-disagree-owner">Disagree</button>
+                            </div>
+                        </div>
+
+                        <!-- card 4 -->
+                        <div class="card">
+                            <div class="card-title text-capitalize">
+                                <div class="space-between fs-medium">
+                                    <!-- cat name -->
+                                    <span class="fw-bold">
+                                        Calia Carla
+                                    </span>
+                                    <!-- upload date -->
+                                    <span class="ml-1 fs-small gray-color">1 Juli 2022</span>
+                                </div>
+                                <div class="space-between gray-color fs-small">
+                                    <!-- location -->
+                                    <div class="item">
+                                        <img src="src/icons/location-dot.svg" alt="icons" height="16px">
+                                        <span class="ml-1">Humburg, Germany</span>
+                                    </div>
+                                    <!-- gender & age -->
+                                    <div class="item">
+                                        <img src="src/icons/venus-regular.svg" alt="icons" height="16px">
+                                        <span class="ml-1">female | 4 Month old</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-image">
+                                <img src="src/img/baby-cat.jpg" class="img-responsive" alt="cat" width="200">
+                                <div class="banner-img" style="border-bottom: 0.1em solid #ccc;">
+                                    <div class="item">
+                                        <!-- like count -->
+                                        <img src="src/icons/heart-solid.svg" alt="icons" height="20px">
+                                        <span class="ml-1" id="count4">145</span>
+                                        <!-- share count -->
+                                        <img src="src/icons/share-regular.svg" class="ml-2" alt="icons" height="20px">
+                                        <span class="ml-1">15</span>
+                                    </div>
+                                    <div class="item">
+                                        <!-- bookmark -->
+                                        <span onclick="bookMark4()" id="hover">
+                                            <img src="src/icons/bookmark-regular.svg" alt="icons" height="20px"
+                                                id="bookmark4">
+                                        </span>
+                                        <!-- chatting -->
+                                        <span id="hover">
+                                            <a href="#chat-owner">
+                                                <img src="src/icons/message-regular.svg" class="ml-2" alt="icons"
+                                                    height="25px">
+                                            </a>
+                                        </span>
+                                        <!-- share -->
+                                        <span id="hover">
+                                            <a href="#share">
+                                                <img src="src/icons/share-regular.svg" class="ml-2" alt="icons"
+                                                    height="20px">
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <!-- description -->
+                                <div class="description">
+                                    <div class="item">
+                                        <p class="fs-small">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                            Quasi, assumenda!<span id="dots4">...</span><span id="more4">&nbsp;Lorem
+                                                ipsum
+                                                dolor
+                                                sit amet consectetur adipisicing elit. Deleniti, tempore.</span></p>
+                                        <h4 class="fs-small text-uppercase" onclick="showMoreOrLess4()" id="btn-show4">
+                                            show
+                                            more</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-foot">
+                                <!-- button like -->
+                                <div class="icon-likes" onclick="myHeart4()">
+                                    <img src="src/icons/heart-regular.svg" alt="icons" height="20px" id="heart4">
+                                </div>
+
+                                <!-- button adoption -->
+                                <button onclick="clickProcessed2()" class="btn-adoption"
+                                    id="proccess2">Adoption</button>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            </div>
+
+            <!-- float-right -->
+            <div class="right-content">
+                <!-- aside -->
+                <aside>
+                    <div class="card">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <h3 class="text-capitalize">your profile</h3>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="3">
+                                        <figure class="card-image">
+                                            <img src="../src/img/me.jpg" class="img-responsive b-radius-1" alt="cat"
+                                                height="200">
+                                        </figure>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="text-capitalize">m fathurrohman mauludin</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="text-capitalize">cianjur, 09 juli 1999</td>
+                                </tr>
+
+                                <tr>
+                                    <td>fathurdiakfari@gmail.com</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </aside>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <span class="fs-small">Copyrigth &#169; 2022 - M Fathurrohman Mauludin </span>
+    </footer>
+
+    <!-- javascripts/js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
